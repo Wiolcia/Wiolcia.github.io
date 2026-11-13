@@ -1,0 +1,37 @@
+
+/* Main content width */
+.md-grid {
+    max-width: 1100px;
+}
+
+/* Headings */
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Rounded profile images */
+.profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Project cards */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+}
+
+/* Links */
+.md-typeset a {
+    font-weight: 500;
+}
